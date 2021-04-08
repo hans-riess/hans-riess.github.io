@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hans Riess
+title                    : "Hans Riess"
 title_separator          : "-"
 name                     : &name "Hans Riess"
 description              : &description "personal description"
@@ -29,7 +29,7 @@ comments:
   facebook:
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : "dark" # "light" (default), "dark"
+    colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
@@ -81,14 +81,14 @@ analytics:
 # Site Author
 author:
   name             : "Hans Riess"
-  avatar           : "headshot.jpg"
-  bio              : "Iam a Ph.D. student trying to reinvent popular tools in AI to study social networks using lattice theory, a rich mathematical field invented in the 1930s."
+  avatar           : "headshot-square.jpg"
+  bio              : "I am a fourth year Ph.D. sudent in the intersection of multi-agent systems, sheaf theory, and lattice theory."
   location         : "Philadelphia"
   employer         : "University of Pennsylvania"
   pubmed           : 
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=lkdryGgAAAAJ"
   email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     :  "https://www.researchgate.net/profile/Hans-Riess"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,17 +96,18 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "hans-riess"
+  github           : "academicpages"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : 
   lastfm           :
   linkedin         :
-  orcid            : 
+  orcid            : "https://orcid.org/0000-0002-3768-0017"
+
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : 
   steam            :
   tumblr           :
   twitter          : "hansmriess"
@@ -181,14 +182,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
-
-
 # Defaults
 defaults:
   # _posts
@@ -227,15 +223,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
   # _talks
   - scope:
       path: ""
@@ -255,7 +242,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
