@@ -3,17 +3,5 @@ main:
   - title: "Blog"
     url: /year-archive/
   
-  - title: "Research"
-    url: /research/
-  
   - title: "Publications"
     url: /publications/
-
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/     
-    
-  - title: "CV"
-    url: /cv/
