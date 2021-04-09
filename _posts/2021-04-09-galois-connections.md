@@ -54,7 +54,7 @@ Finally, a word on posets. In a poset, the additional axiom of *anti-symmetry* m
 
 **Lattices** are posets (partially ordered sets) such that for any two elements $x, y \in L$ there are unique elements $x \vee y, x \wedge y \in L$ such that $x \vee y$ is the least upper bound of $x$ and $y$ and $x \wedge y$ is the greatest lower bound; the symbol $\vee$ is called **join**, the symbol $\wedge$ is called **meet**. Often the greatest and least elements of a lattice are written as $\top$ and $\bot$ respectively. There are many familiar examples of lattices: given any set, its powerset forms a lattice with the lattice operations comprising of union ($\cup$) and intersection ($\cap$). There are richer classes of lattices living inside powersets: for example, any subset $L \subseteq 2^X$ is a lattice, or sometimes called a *lattice family*, if for any $A, B \subseteq L$ there is a smallest (greatest) set $A \vee B$ ($A \wedge B$) such that $A \vee B \supseteq A, B$ ($A \wedge B \subseteq A, B$). Additional examples we can draw from combinatorics, linear algebra, logic, and even topology.
 
-<img src="C:\Users\hansr\OneDrive\Documents\hans-riess.github.io\images\lattice.png" style="zoom:50%;" />
+![lattice](C:\Users\hansr\OneDrive\Documents\hans-riess.github.io\_posts\lattice.png)
 
 Lattices apt structures for modeling heirarchies. Furthermore, they are convenient because you can combine lattice elements in two different ways that are dual to oner another (whereas, in general you cannot "add" preference relations). Lattices are the right tool for modeling preference that are heirarchial in nature. Now you might be saying, "Wait! You just told me that preorders are the right relation to model human preferences!" Of course you are in the right to complain. But there might be a case that *lattices are the cannonical structure for modeling meta-preferences*.
 
@@ -97,11 +97,11 @@ form a lattice (this is non-obvious, something you need to prove) called the **c
 
 Let's look at an examle. Suppose we have a relation, say of NBA basketball players and facts about them, $R \subseteq X \times Y$. We can represent this relation by a table:
 
-![](C:\Users\hansr\OneDrive\Documents\hans-riess.github.io\images\nba-table.png)
+![table](C:\Users\hansr\OneDrive\Documents\hans-riess.github.io\_posts\nba-table.png)
 
 Now we may calculate the fixed points $\mathrm{Fix}(R^\ast R_\ast) = \{A: R^\ast R_\ast (A) = A \}$ which form the concept lattice. (I might have cheated a bit, but you can show that the definition of the concept lattice above is equivalent to $\mathrm{Fix}(R^\ast R_\ast)$.) There are software packages out there to do this somewhat automattically (e.g. the python package [concepts](https://github.com/xflr6/concepts)). We obtain the following concept lattice:
 
-![](C:\Users\hansr\OneDrive\Documents\hans-riess.github.io\images\nba-concepts-obj.svg)
+![fca-lattice](C:\Users\hansr\OneDrive\Documents\hans-riess.github.io\_posts\nba-concepts-obj.svg)
 
 How do we interpret this lattice? If we take the meet ($\wedge$) of, say $A$ and $B$, this is equivalent to taking the union of rows A and B (why union, not intersection?...because the $R^\ast$, $R_\ast$ maps are order-reversing). If we take the join ($\vee$) of A and B, this is equivalent to take the intersection of rows A and B which cooresponds to the attribute "forward" i.e. the concept Antetokounmpo, Butler and Durrant.
 
