@@ -1,9 +1,9 @@
 ---
 title: "A Temporal Logic-based Hierarchial Network Connectivity Controler"
 collection: publications
-permalink: /publication/2021-03-16-temporal-connectivity
+permalink: /publication/2021-3-16-temporal-connectivity
 excerpt: 'In this paper, we consider networks of static sensors with integrated sensing and communication capabilities. The goal of the sensors is to propagate their collected information to every other agent in the network and possibly a human operator. Such a task requires constant communication among all agents which may result in collisions and congestion in wireless communication. To mitigate this issue, we impose locally non-interfering communication constraints that must be respected by every agent. We show that these constraints along with the requirement of propagating information in the network can be captured by a Linear Temporal Logic (LTL) framework. Existing temporal logic control synthesis algorithms can be used to design correct-by-construction communication schedules that satisfy the considered LTL formula. Nevertheless, such approaches are centralized and scale poorly with the size of the network. We propose a hierarchical LTL-based algorithm that designs communication schedules that determine which agents should communicate while maximizing network usage. We show that the proposed algorithm is complete and demonstrate its efficiency and scalability through numerical experiments.'
-date: 2021-03-16
+date: 2021-3-16
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/pdf/2009.00669.pdf'
 citation: 'Riess, H., Kantaros, Y., Pappas, G., &amp; Ghrist, R. (2021). A Temporal Logic-based Network Connectivity Controller. To appear in <i>Proceedings of SIAM Control and Applications</i>.'
