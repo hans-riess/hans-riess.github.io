@@ -54,15 +54,15 @@ Finally, a word on posets. In a poset, the additional axiom of *anti-symmetry* m
 
 **Lattices** are posets (partially ordered sets) such that for any two elements $x, y \in L$ there are unique elements $x \vee y, x \wedge y \in L$ such that $x \vee y$ is the least upper bound of $x$ and $y$ and $x \wedge y$ is the greatest lower bound; the symbol $\vee$ is called **join**, the symbol $\wedge$ is called **meet**. Often the greatest and least elements of a lattice are written as $\top$ and $\bot$ respectively. There are many familiar examples of lattices: given any set, its powerset forms a lattice with the lattice operations comprising of union ($\cup$) and intersection ($\cap$). There are richer classes of lattices living inside powersets: for example, any subset $L \subseteq 2^X$ is a lattice, or sometimes called a *lattice family*, if for any $A, B \subseteq L$ there is a smallest (greatest) set $A \vee B$ ($A \wedge B$) such that $A \vee B \supseteq A, B$ ($A \wedge B \subseteq A, B$). Additional examples we can draw from combinatorics, linear algebra, logic, and even topology.
 
-![lattice](C:\Users\hansr\OneDrive\Documents\hans-riess.github.io\_posts\lattice.png)
+<img src="\images\lattice.png" alt="lattice" style="zoom:50%;" />
 
-Lattices apt structures for modeling heirarchies. Furthermore, they are convenient because you can combine lattice elements in two different ways that are dual to oner another (whereas, in general you cannot "add" preference relations). Lattices are the right tool for modeling preference that are heirarchial in nature. Now you might be saying, "Wait! You just told me that preorders are the right relation to model human preferences!" Of course you are in the right to complain. But there might be a case that *lattices are the cannonical structure for modeling meta-preferences*.
+Lattices apt structures for modeling hierarchies. Furthermore, they are convenient because you can combine lattice elements in two different ways that are dual to one another (whereas, in general you cannot "add" preference relations). Lattices are the right tool for modeling preference that are hierarchical in nature. Now you might be saying, "Wait! You just told me that preorders are the right relation to model human preferences!" Of course you are in the right to complain. But there might be a case that *lattices are the canonical structure for modeling meta-preferences*.
 
-Put plainly, **meta-preferences** are preferences about preferences. Going back to our example about changing preferences to be transitive: this example suggests that baked in our sense of what our prefereces ought to be is that they should be transitive. A meta-preference is in essence a moral code which may govern not only what I want to want for myself, but what I want others to want. So one defintion of a **meta-preference profile** is a binary relation on the set $\mathrm{Rel}(X)$ of all binary relations on a set of alternatives $X$; explicitly,
+Put plainly, **meta-preferences** are preferences about preferences. Going back to our example about changing preferences to be transitive: this example suggests that baked in our sense of what our preferences ought to be is that they should be transitive. A meta-preference is in essence a moral code which may govern not only what I want to want for myself, but what I want others to want. So one definition of a **meta-preference profile** is a binary relation on the set $\mathrm{Rel}(X)$ of all binary relations on a set of alternatives $X$; explicitly,
 $$
 Q \subseteq \mathrm{Rel}(X) \times \mathrm{Rel}(X).
 $$
-Another definition of meta-preferences goes back to the brunch example. I may have a prefence of Eggs Benedickt over French Toast, and a preference of a Cobb Salad over a Cheeseburger, but I can have a meta-preference of $\{ \text{Benedikt, French}\}$ over $\{ \text{Salad}, \text{Burger} \}$. As pointed out earlier, I could have a meta-preference of breakfast over lunch without having a preference of, say French toast over a burger. So a second definiton of a **meta-preference profile** is a binary relation on the choice spaces $D(X)$ of a set of alternaties $X$; explicitly,
+Another definition of meta-preferences goes back to the brunch example. I may have a preference of Eggs Benedickt over French Toast, and a preference of a Cobb Salad over a Cheeseburger, but I can have a meta-preference of $\{ \text{Benedikt, French}\}$ over $\{ \text{Salad}, \text{Burger} \}$. As pointed out earlier, I could have a meta-preference of breakfast over lunch without having a preference of, say French toast over a burger. So a second definition of a **meta-preference profile** is a binary relation on the choice spaces $D(X)$ of a set of alternatives $X$; explicitly,
 $$
 Q \subseteq D(X) \times D(X).
 $$
@@ -79,7 +79,7 @@ f_\ast: P \leftrightarrows Q: f^\ast
 $$
 such that $f_\ast (p) \sqsupseteq q$ if and only if $f^\ast(q) \geq p$ . 
 
-In 1982, a mathematician Rudolph Wille presented a [paper](https://link.springer.com/book/10.1007/978-94-009-7798-3), "Restructuring Lattice Theory: An Approach Based on Heirarchies of Concepts," connecting Galois connections to binary relations. He is often credited for first "applying lattice theory" because of course binary relations are everywhere (e.g. databases, systems theory, linguistics etc...). Given a binary relation $R \subseteq X \times Y$, Wille constructs a lattice he calls the **concept lattice** describing heirarchies of concepts (i.e. subsets of $X$ or $Y$ ) within a relation.
+In 1982, a mathematician Rudolph Wille presented a [paper](https://link.springer.com/book/10.1007/978-94-009-7798-3), "Restructuring Lattice Theory: An Approach Based on Hierarchies of Concepts," connecting Galois connections to binary relations. He is often credited for first "applying lattice theory" because of course binary relations are everywhere (e.g. databases, systems theory, linguistics etc...). Given a binary relation $R \subseteq X \times Y$, Wille constructs a lattice he calls the **concept lattice** describing hierarchies of concepts (i.e. subsets of $X$ or $Y$ ) within a relation.
 
 A concept lattice comes from a Galois connection,
 $$
@@ -95,17 +95,17 @@ $$
 $$
 form a lattice (this is non-obvious, something you need to prove) called the **concept lattice**. 
 
-Let's look at an examle. Suppose we have a relation, say of NBA basketball players and facts about them, $R \subseteq X \times Y$. We can represent this relation by a table:
+Let's look at an example. Suppose we have a relation, say of NBA basketball players and facts about them, $R \subseteq X \times Y$. We can represent this relation by a table:
 
-![table](C:\Users\hansr\OneDrive\Documents\hans-riess.github.io\_posts\nba-table.png)
+<img src="\images\nba-table.png" alt="nba-table" style="zoom:48%;" />
 
-Now we may calculate the fixed points $\mathrm{Fix}(R^\ast R_\ast) = \{A: R^\ast R_\ast (A) = A \}$ which form the concept lattice. (I might have cheated a bit, but you can show that the definition of the concept lattice above is equivalent to $\mathrm{Fix}(R^\ast R_\ast)$.) There are software packages out there to do this somewhat automattically (e.g. the python package [concepts](https://github.com/xflr6/concepts)). We obtain the following concept lattice:
+Now we may calculate the fixed points $\mathrm{Fix}(R^\ast R_\ast) = \{A: R^\ast R_\ast (A) = A \}$ which form the concept lattice. (I might have cheated a bit, but you can show that the definition of the concept lattice above is equivalent to $\mathrm{Fix}(R^\ast R_\ast)$.) There are software packages out there to do this somewhat automatically (e.g. the python package [concepts](https://github.com/xflr6/concepts)). We obtain the following concept lattice:
 
-![fca-lattice](C:\Users\hansr\OneDrive\Documents\hans-riess.github.io\_posts\nba-concepts-obj.svg)
+<img src="\images\nba-concepts-obj.svg" style="zoom: 150%;" />
 
-How do we interpret this lattice? If we take the meet ($\wedge$) of, say $A$ and $B$, this is equivalent to taking the union of rows A and B (why union, not intersection?...because the $R^\ast$, $R_\ast$ maps are order-reversing). If we take the join ($\vee$) of A and B, this is equivalent to take the intersection of rows A and B which cooresponds to the attribute "forward" i.e. the concept Antetokounmpo, Butler and Durrant.
+How do we interpret this lattice? If we take the meet ($\wedge$) of, say $A$ and $B$, this is equivalent to taking the union of rows A and B (why union, not intersection?...because the $R^\ast$, $R_\ast$ maps are order-reversing). If we take the join ($\vee$) of A and B, this is equivalent to take the intersection of rows A and B which corresponds to the attribute "forward" i.e. the concept Antetokounmpo, Butler and Durrant.
 
 Now, back to preference relations. As we have seen earlier, a choice function $C: D(X) \to 2^X$ begets a unique weak preference relation. In a similar vein, any preference relation $W \subseteq X \times X$ begets a *unique meta-preference relation*, $\mathrm{Concept}(W)$ which is a  *lattice* that can be viewed also as a binary relation $\mathrm{Concept}(W) \subseteq  2^X \times 2^X$. This is significant because we have put a *lattice structure on meta-preferences*. In particular, individuals can exchange meta-preferences to find their meet or join i.e. their *least common denominator*--what they have in common--or form a *compromise*--the effective feasible sum of their meta-preferences.
 
-So maybe this is the very beggining of a arguement that *lattices are the cannonical structure for modeling meta-preferences*. 
+So maybe this is the very beginning of a argument that *lattices are the canonical structure for modeling meta-preferences*. 
 
