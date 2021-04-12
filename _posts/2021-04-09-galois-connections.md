@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "An Economical Guide to Galois Connections"
+title: "An Economical Guide to Galois Connections via meta-Preferences"
 ---
 
 
 
-# An Economical Guide to Galois Connections
+# An Economical Guide to Galois Connections via meta-Preferences
 
 Of course, I half-heartedly apologize for the double entendre, but *really* it is my hope that this post will be both a relatively cheap introduction to Galois connections and be of help, especially, to economists.
 
@@ -52,7 +52,7 @@ Finally, a word on posets. In a poset, the additional axiom of *anti-symmetry* m
 
 ### Lattices
 
-**Lattices** are posets (partially ordered sets) such that for any two elements $x, y \in L$ there are unique elements $x \vee y, x \wedge y \in L$ such that $x \vee y$ is the least upper bound of $x$ and $y$ and $x \wedge y$ is the greatest lower bound; the symbol $\vee$ is called **join**, the symbol $\wedge$ is called **meet**. Often the greatest and least elements of a lattice are written as $\top$ and $\bot$ respectively. There are many familiar examples of lattices: given any set, its powerset forms a lattice with the lattice operations comprising of union ($\cup$) and intersection ($\cap$). There are richer classes of lattices living inside powersets: for example, any subset $L \subseteq 2^X$ is a lattice, or sometimes called a *lattice family*, if for any $A, B \subseteq L$ there is a smallest (greatest) set $A \vee B$ ($A \wedge B$) such that $A \vee B \supseteq A, B$ ($A \wedge B \subseteq A, B$). Additional examples we can draw from combinatorics, linear algebra, logic, and even topology.
+**Lattices** are posets (partially ordered sets) such that for any two elements $x, y \in L$ there are unique elements $x \vee y, x \wedge y \in L$ such that $x \vee y$ is the least upper bound of $x$ and $y$ and $x \wedge y$ is the greatest lower bound; the symbol $\vee$ is called **join**, the symbol $\wedge$ is called **meet**. Often the greatest and least elements of a lattice are written as $\top$ and $\bot$ respectively. There are many familiar examples of lattices: given any set, its powerset forms a lattice with the lattice operations comprising of union ($\cup$) and intersection ($\cap$). There are richer classes of lattices living inside powersets: for example, any subset $L \subseteq 2^X$ is a lattice, or sometimes called a *lattice family*, if for any $A, B \subseteq L$ there is a smallest (dually greatest) set $A \vee B$ (dually $A \wedge B$) such that $A \vee B \supseteq A, B$ (dually $A \wedge B \subseteq A, B$). Additional examples we can draw from combinatorics, linear algebra, logic, and even topology.
 
 <img src="\images\lattice.png" alt="lattice" style="zoom:50%;" />
 
@@ -69,15 +69,14 @@ $$
 
 ### Galois Connections
 
-Historically speaking, it may have been Richard Dedekind who wrote the first paper explicitly on lattices around the turn of the 20th century. However, perhaps the most important construction in lattice theory, the *Galois connection*, was essentially invented by Évariste Galois in 1830. Galois also is often credited at inventing group theory (the abstract study of symmetries) at the same time. Both groups and Galois connections were invented as abstract tools to reason about polynomials.
+Historically speaking, it may have been Richard Dedekind who wrote the first paper explicitly on lattices around the turn of the 20th century. However, perhaps the most important construction in lattice theory, the [*Galois connection*](https://ncatlab.org/nlab/show/Galois+connection), was essentially invented by Évariste Galois in 1830. Galois also is often credited at inventing group theory (the abstract study of symmetries) at the same time. Both groups and Galois connections were invented as abstract tools to reason about polynomials.
 
-Consider posets $(P, \leq)$ and $(Q,\sqsubseteq)$. An an order-revering map is a map $\varphi: P \to Q$ such that if $x \leq y$, then $\varphi(X) \sqsupseteq \varphi(y)$.
+Consider posets $(P, \leq)$ and $(Q,\sqsubseteq)$. An an order-revering map is a map $\varphi: P \to Q$ such that if $x \leq y$, then $\varphi(X) \sqsupseteq \varphi(y)$. A Galois connection between two posets $(P, \leq)$ and $(Q,\sqsubseteq)$  is a pair $(f_\ast, f^\ast)$ of order-reversing  maps,
 
-A Galois connection between two posets $(P, \leq)$ and $(Q,\sqsubseteq)$  is a pair of order-reversing (i.e. a map $\varphi$ such that if $x \preceq y$, then $\varphi(x) \succeq \varphi(y)$) maps,
 $$
 f_\ast: P \leftrightarrows Q: f^\ast
 $$
-such that $f_\ast (p) \sqsupseteq q$ if and only if $f^\ast(q) \geq p$ . 
+such that $f_\ast (p) \sqsupseteq q$ if and only if $f^\ast(q) \geq p$ .
 
 In 1982, a mathematician Rudolph Wille presented a [paper](https://link.springer.com/book/10.1007/978-94-009-7798-3), "Restructuring Lattice Theory: An Approach Based on Hierarchies of Concepts," connecting Galois connections to binary relations. He is often credited for first "applying lattice theory" because of course binary relations are everywhere (e.g. databases, systems theory, linguistics etc...). Given a binary relation $R \subseteq X \times Y$, Wille constructs a lattice he calls the **concept lattice** describing hierarchies of concepts (i.e. subsets of $X$ or $Y$ ) within a relation.
 
