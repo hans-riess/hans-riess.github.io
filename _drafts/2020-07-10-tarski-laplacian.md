@@ -1,6 +1,8 @@
 ---
-layout: post
-title:  "Introducing the Tarski Laplacian"
+layout: single
+title: "Introducing the Tarski Laplacian"
+tags:
+  - Research
 ---
 
 Robert Ghrist and I have a new paper out---"Cellular Sheaves of Lattices and the Tarski Laplacian"---available on [arXiv](https://arxiv.org/abs/2007.04099). One *caveat* I should mention is that this is a pure math paper. But for those of you in machine learning, signal processing, complex systems etc. do not be intimidated---Rob and I did our best to keep the prerequisites to the minimum: category theory basics and some intuition about why cellular sheaves are important (e.g. from the [thesis](https://arxiv.org/abs/1303.3255) of Justin Curry)...and maybe some prior exposure to lattice theory (chapter 2 of [Roman](https://www.amazon.com/Lattices-Ordered-Sets-Steven-Roman-ebook/dp/B00FB32WVG/ref=sr_1_2?dchild=1&keywords=roman+lattices&qid=1594314322&s=books&sr=1-2) and the sections on Galois connections in [Davey & Priestly](https://www.amazon.com/Introduction-Lattices-Order-B-Davey/dp/0521784514) are good).

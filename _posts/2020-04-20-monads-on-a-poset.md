@@ -1,7 +1,10 @@
 ---
 
-layout: post
+layout: single
 title: "Monads on a Poset"
+tags:
+  - Lattice Theory
+  - Category Theory
 ---
 
 In this post, I will briefly describe a pleasant observation I made this morning about monads on a poset, that is, a partially ordered set. In order to get there, I will have to say what exactly are *monads* and *posets.*

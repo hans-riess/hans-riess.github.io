@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Hans Riess"
   avatar           : "headshot-square.jpg"
-  bio              : "I am a fourth year Ph.D. sudent in the intersection of multi-agent systems, sheaf theory, and lattice theory."
+  bio              : "I am a Ph.D. candidate at Penn working in the intersection of the fields of multi-agent systems, sheaf theory, and lattice theory."
   location         : "Philadelphia"
   employer         : "University of Pennsylvania"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=lkdryGgAAAAJ"
-  email            :
+  email            : "hmr@seas.upenn.edu"
   researchgate     :  "https://www.researchgate.net/profile/Hans-Riess"
   uri              :
   bitbucket        :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : 
   lastfm           :
-  linkedin         :
+  linkedin         : "hansriess"
   orcid            : "https://orcid.org/0000-0002-3768-0017"
 
   pinterest        :

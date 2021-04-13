@@ -11,3 +11,5 @@ citation: 'Riess, H., &amp; Hansen, J. (2020). Multidimensional Persistence Modu
 Multiparameter persistent homology has been largely neglected as an input to machine learning algorithms. We consider the use of lattice-based convolutional neural network layers as a tool for the analysis of features arising from multiparameter persistence modules. We find that these show promise as an alternative to convolutions for the classification of multidimensional persistence modules.
 
 [Download paper here](https://arxiv.org/pdf/2011.14057.pdf)
+
+![](\images\lattice-cnn.jpg)

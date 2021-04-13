@@ -1,6 +1,11 @@
 ---
-layout: post
+layout: single
 title: "An Economical Guide to Galois Connections via meta-Preferences"
+header:
+  teaser: "/images/galois.jpg"
+tags:
+  - Lattice Theory
+  - Economics
 ---
 
 
