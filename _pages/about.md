@@ -10,18 +10,6 @@ I am a researcher working in applied algebra/combinatorics/topology focused on a
 
 The critical mathematical tool in my research program is the **Tarski Laplacian**, an operator my advisor (Robert Ghrist) and I discovered that is analogous to the graph Laplacian and the combinatorial Hodge Laplacian (if you know what that is), but for **sheaves**---mathematical objects that collect assignments of data to geometric objects such as networks---taking data in **lattices**---ordered sets with an upper and lower merging operation called join  ($\vee$) and meet ($\wedge$).
 
-Below is an animation describing a lattice-valued sheaf over a graph with three vertices and two edges.
-
-<script type="text/javascript">
-var dateObj = new Date(document.lastModified);
-document.write("Latest updated " + dateObj.toLocaleString());
-</script>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UvW3BzlvMtY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-I also tweet:
-
 <a class="twitter-timeline" data-width="600" data-height="1000" data-dnt="true" data-theme="light" href="https://twitter.com/hansmriess?ref_src=twsrc%5Etfw">Tweets by hansmriess</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8" ></script>
 
 <a href="https://twitter.com/hansmriess?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @hansmriess</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
