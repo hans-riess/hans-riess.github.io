@@ -2,8 +2,8 @@
 
 layout: single
 title: "Monads on a Poset"
-header: "/images/may.jpg"
-  teaser: 
+header:  
+  teaser: "/images/may.jpg"
 tags:
   - Lattice Theory
   - Category Theory
