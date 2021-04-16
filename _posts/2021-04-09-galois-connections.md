@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "An Economical Guide to Galois Connections via meta-Preferences"
-header:
-  teaser: "/images/galois.jpg"
+header: "/images/galois.jpg"
+  teaser:
 tags:
   - Lattice Theory
   - Economics
