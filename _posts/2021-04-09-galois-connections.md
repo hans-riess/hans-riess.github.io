@@ -76,7 +76,7 @@ $$
 
 Historically speaking, it may have been Richard Dedekind who wrote the first paper explicitly on lattices around the turn of the 20th century. However, perhaps the most important construction in lattice theory, the [*Galois connection*](https://ncatlab.org/nlab/show/Galois+connection), was essentially invented by Évariste Galois in 1830. Galois also is often credited at inventing group theory (the abstract study of symmetries) at the same time. Both groups and Galois connections were invented as abstract tools to reason about polynomials.
 
-Consider posets $(P, \leq)$ and $(Q,\sqsubseteq)$. An an order-revering map is a map $\varphi: P \to Q$ such that if $x \leq y$, then $\varphi(X) \sqsupseteq \varphi(y)$. A Galois connection between two posets $(P, \leq)$ and $(Q,\sqsubseteq)$  is a pair $(f_\ast, f^\ast)$ of order-reversing  maps,
+Consider posets $(P, \leq)$ and $(Q,\sqsubseteq)$. An an order-reversing map is a map $\varphi: P \to Q$ such that if $x \leq y$, then $\varphi(X) \sqsupseteq \varphi(y)$. A Galois connection between two posets $(P, \leq)$ and $(Q,\sqsubseteq)$  is a pair $(f_\ast, f^\ast)$ of order-reversing  maps,
 
 $$
 f_\ast: P \leftrightarrows Q: f^\ast

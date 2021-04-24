@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-### a little about my research
+### A little about my research
 
 Although I am affiliated with the Electrical and Systems Engineering department at Penn, I consider myself neither an engineer nor a mathematician, but something in between. As a mathematician, I work in areas of applied category theory, algebraic combinatorics, and applied algebraic topology. As an engineer, I focus on application areas in multi-agent systems. In particular, I am interested in robotic systems, graph signal processing, and opinion dynamics. 
 
@@ -17,7 +17,7 @@ Of paramount importance to my research is a curious operator called the [**Tarsk
 
 (Credit: [Robert Ghrist](https://www2.math.upenn.edu/~ghrist/).)
 
-### a little about me
+### A little about me
 
 I was born and raised in Bloomington, Indiana. I did my undergrad in Durham, North Carolina. I am now working on my doctorate in Philadelphia, Pennsylvania. I enjoy playing tennis and biking. I enjoy listening and playing jazz and classical music.
 
