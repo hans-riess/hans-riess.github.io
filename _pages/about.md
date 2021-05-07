@@ -19,7 +19,7 @@ Of paramount importance to my research is a curious operator called the [**Tarsk
 
 ### A little about me
 
-I was born and raised in Bloomington, Indiana. I did my undergrad in Durham, North Carolina. I am now working on my doctorate in Philadelphia, Pennsylvania. I enjoy playing tennis and biking. I enjoy listening and playing jazz and classical music.
+I was born and raised in Bloomington, Indiana. I did my undergrad in Durham, North Carolina. I am now working on my doctorate in Philadelphia, Pennsylvania. I enjoy playing tennis and biking. I enjoy listening and playing jazz and classical music. Above all, I enjoy spending time with my fiancée. 
 
 <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
 <script>
