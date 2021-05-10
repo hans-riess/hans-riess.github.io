@@ -2,8 +2,9 @@
 
 layout: single
 title: "Monads on a Poset"
+date: 2020-04-20
 header:  
-  teaser: "/images/may.jpg"
+  teaser: may.jpg
 tags:
   - Lattice Theory
   - Category Theory

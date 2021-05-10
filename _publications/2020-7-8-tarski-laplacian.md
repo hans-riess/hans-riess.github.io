@@ -12,5 +12,5 @@ This paper initiates a discrete Hodge theory for cellular sheaves taking values 
 
 [Download paper here](http://hans-riess.github.io/files/tarski-laplacian.pdf)
 
-![](\images\rob-tarski-sheaf.jpg)
+![](\images\rob-tarski-sheaf-2.jpg)
 
