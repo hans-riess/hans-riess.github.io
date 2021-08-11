@@ -1,6 +1,8 @@
 ---
 title: "Consulting"
 permalink: /consulting/
+header:
+    image: graph-laplacian.png
 layout: single
 ---
 

@@ -76,7 +76,7 @@ These are constructed by essentially replacing $y$ with $F x$ or replacing $x$ w
 
 Okay. So what is a monad?  Well, we already have an example, the functor $G F: \mathsf{P} \rightarrow \mathsf{P}$. Of course, we could have replaced $\mathsf{P}$ with any category and $F \vdash G$ with any adjunction. Here is the definition: a *monad* is a triple $(T, \mu, \eta)$ where $T$ is an endofunctor $T: \mathsf{C} \rightarrow \mathsf{C}$ , $\mu$ is a natural transformation, $\mu: T \circ T \Rightarrow T$, and $\eta$ is a natural transformation, $\eta: 1_{\mathsf{P}} \Rightarrow T$, such that $(T, \mu, \eta)$ satisfy a number of commutative diagrams describing an associativity property of $\mu$ and an identity property of $\eta$.
 
-***<u>Proposition</u>:*** Any adjunction $F \vdash G: \mathsf{C} \rightarrow \mathsf{D}$ gives rise to a monad $(G F, \eta, \mu)$.
+**Proposition.** Any adjunction $F \vdash G: \mathsf{C} \rightarrow \mathsf{D}$ gives rise to a monad $(G F, \eta, \mu)$.
 
 *Proof*. $G F: \mathsf{C} \rightarrow \mathsf{C}$ is an endofunctor. The unit of the adjunction, $\eta: 1_{\mathsf{P}} \Rightarrow G F$, is also the unit of the monad. Let $\varepsilon$ bet the counit of the adjunction. Then, define $\mu$ as follows,
 
@@ -101,11 +101,11 @@ $$
 
 which means that $T^2(x) \preceq T(x)$. However, $T(x) \preceq T(x')$ and $T(x) \succeq x$ implies that $T^2(x) \preceq x$. This implies that $T^2(x) = T(x)$, or $T^2 = T$. That is, $T$ is *idempotent*! Hence, we have a proposition.
 
-***<u>Proposition:</u>*** A monad $(T, \mu, \eta)$ on a poset $\mathsf{P}$ is that same as a monotone, inflationary, idempotent map, $T: P \rightarrow P$.
+**Proposition.** A monad $(T, \mu, \eta)$ on a poset $\mathsf{P}$ is that same as a monotone, inflationary, idempotent map, $T: P \rightarrow P$.
 
 Together with our proposition about constructing a monad from an adunction, we have the following corollary, whose proof is now trivial.
 
-***<u>Corollary:</u>*** Let $(F, G): P \longleftrightarrow Q$ be a Galois connection between posets $P$ and $Q$. Then, the following identities hold:
+**Corollary.** Let $(F, G): P \longleftrightarrow Q$ be a Galois connection between posets $P$ and $Q$. Then, the following identities hold:
 
 * For all $x \in P$ and $y \in Q$,
 

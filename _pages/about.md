@@ -3,8 +3,7 @@ title: "Welcome"
 permalink: /
 author_profile: true
 header: 
-  image: rob-tarski-sheaf.jpg
-  caption: "Image credit: Robert Ghrist"
+  image: sheaf.png  
 redirect_from: 
   - /about/
   - /about.html

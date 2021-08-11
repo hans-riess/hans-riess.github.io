@@ -9,8 +9,6 @@ tags:
   - Economics
 ---
 
-# An Economical Guide to Galois Connections via meta-Preferences
-
 Of course, I half-heartedly apologize for the double entendre, but *really* it is my hope that this post will be both a relatively cheap introduction to Galois connections and be of help, especially, to economists.
 
 ### Preference Relations
