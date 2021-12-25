@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "An Economical Guide to Galois Connections via meta-Preferences"
+title: "An Economical Guide to Galois Connections via Meta-Preferences"
 date: 2021-04-09
 header:  
   teaser: galois.jpg

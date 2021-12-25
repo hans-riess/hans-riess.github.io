@@ -81,14 +81,14 @@ analytics:
 # Site Author
 author:
   name             : "Hans Riess"
-  avatar           : "headshot-square.jpg"
+  avatar           : "headshot_2.jpg"
   bio              : "I am a Ph.D. candidate at Penn working in the intersection of the fields of multi-agent systems, sheaf theory, and lattice theory."
   location         : "Philadelphia"
   employer         : "University of Pennsylvania"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=lkdryGgAAAAJ"
   email            : "hmr@seas.upenn.edu"
-  researchgate     :  "https://www.researchgate.net/profile/Hans-Riess"
+  researchgate     :  
   uri              :
   bitbucket        :
   codepen          :
@@ -96,14 +96,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "hans-riess"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "tarskifixedpoint"
   impactstory      : 
   lastfm           :
   linkedin         : "hansriess"
-  orcid            : "https://orcid.org/0000-0002-3768-0017"
+  orcid            : 
 
   pinterest        :
   soundcloud       :
@@ -114,7 +114,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : "https://www.youtube.com/channel/UCs4mBk4PIAUbTXzjd6j-Ypw/featured"
+  youtube          : "UCs4mBk4PIAUbTXzjd6j-Ypw"
   wikipedia        :
 
 
