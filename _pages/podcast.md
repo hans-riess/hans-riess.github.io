@@ -1,11 +1,11 @@
 ---
-title: "Podcast"
+title: "MATH with Hans Riess"
 permalink: /podcast/
 header:
-    image: math-with-hans.png
+    image:
 layout: single
 ---
 
-# MATH with Hans Riess
+<img src="\images\math-with-hans.png" alt="podcast" style="zoom:25%;" />
 
-Find me on Callin. Under construction!
+Find me on [Callin](https://www.callin.com/), the social podcasting app. Page under construction!

@@ -3,7 +3,7 @@ title: "Welcome"
 permalink: /
 author_profile: true
 header: 
-  image: sheaf.png  
+  image:
 redirect_from: 
   - /about/
   - /about.html
