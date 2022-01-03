@@ -9,8 +9,12 @@ main:
   - title: "Talks"
     url: /talks/
 
-  - title: "Consulting"
-    url: /consulting/
+  # - title: "Consulting"
+  #   url: /consulting/
+  
+  - title: "Teaching"
+    url: /teaching/
 
   - title: "Podcast"
     url: /podcast/
+
