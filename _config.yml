@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Hans Riess"
   avatar           : "headshot_2.jpg"
-  bio              : "I am a Ph.D. candidate at Penn working in the intersection of the fields of multi-agent systems, sheaf theory, and lattice theory."
+  bio              : "I am a Ph.D. candidate at Penn studying the interplay between order lattices and multi-agent systems."
   location         : "Philadelphia"
   employer         : "University of Pennsylvania"
   pubmed           : 
@@ -205,6 +205,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      comments: true
   # _teaching
   - scope:
       path: ""
@@ -213,7 +214,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
+      comments: false
   # _publications
   - scope:
       path: ""
@@ -222,7 +223,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
+      comments: false
   # _talks
   - scope:
       path: ""

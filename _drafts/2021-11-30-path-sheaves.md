@@ -7,7 +7,7 @@ header:
 tags:
   - Lattice Theory
   - Sheaves
-  - Criticism
+  - Review
 ---
 
 In their recent paper "Path Optimization Sheaves," Moy et al. define a notion of a **path sheaf** in order to posit path-finding algorithms from a sheaf-theoretic point-of-view, such as Dijkstra's algorithm. They define a weighted version of the path sheaf which they call the **distance path sheaf**.

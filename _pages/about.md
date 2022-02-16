@@ -1,5 +1,5 @@
 ---
-title: "Welcome"
+title: Lattice Theory in Multi-Agent Systems
 permalink: /
 author_profile: true
 header: 
@@ -9,21 +9,22 @@ redirect_from:
   - /about.html
 ---
 
-## A little about my research
+## About My Research
 
-Although I am affiliated with the Electrical and Systems Engineering department at Penn, I consider myself neither an engineer nor a mathematician, but something in between. As a mathematician, I work in areas of applied category theory, algebraic combinatorics, and applied algebraic topology. As an engineer, I focus on application areas in multi-agent systems. In particular, I am interested in robotic systems, graph signal processing, and opinion dynamics. 
+I an applied algebraist in the sense that I port tools from algebra (e.g. lattice theory, homological algebra) and sometimes topology (simplicial complexes) to multi-agent systems.
 
-<!-- Of paramount importance to my research is a curious operator called the [**Tarski Laplacian**](https://hansriess.com/publication/2020-7-8-tarski-laplacian), inspired by the combinatorial Hodge Laplacian (maybe going back to De Rahm but formally introduced in a 1944 German-language journal by Beno Eckmann) which specializes to the (inner-product space) [sheaf Laplacian](https://arxiv.org/pdf/1808.01513.pdf) which in turn specializes to the ubiquitous graph Laplacian, known for its central place in spectral graph theory. The Tarski Laplacian acts on assignments of data to a so-called sheaf: an abstract mathematical object that collects data over networks. In particular, the Tarski Laplacian acts on data collected by (order) lattices (e.g. the lattice of subspaces of a vector space, lattice of subsets of a set) called *stalks* 'living above' the nodes of a network. -->
+Much of my research is centered around the [**Tarski Laplacian**](https://hansriess.com/files/tarski-laplacian.pdf), an operator inspired by the combinatorial Hodge Laplacian (maybe going back to De Rahm but certainly Eckmann). For the category theorists in the room, the Tarski Laplacian over a graph is a categorification of the graph Laplacian matrix. But it is so much more, as I explain in the video below...
 
-## Research statement
+I am on the **job market** looking for a position (post-doc, assistant professor or industry) starting as soon January 2023 and as late as September 2023. 
+
+## Research Statement
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qoli4G-_HOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <!-- ![](/images/rob-tarski-sheaf.jpg) -->
 
-## Personal bio
-
-I was born and raised in Bloomington, Indiana. I did my undergrad in Durham, North Carolina. I am now working on my doctorate in Philadelphia, Pennsylvania. I enjoy playing tennis and biking. I enjoy listening and playing jazz and classical music. Above all, I enjoy spending time with my fiancée. 
+## Personal Bio
+I was born and raised in Bloomington, Indiana. I did my undergrad in Durham, North Carolina. I am now working on my doctorate in Philadelphia, Pennsylvania. I enjoy playing tennis and biking. I enjoy listening and playing jazz and classical music. Above all, I enjoy spending time with my fiancée (she made me put that in). 
 
 <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
 <script>

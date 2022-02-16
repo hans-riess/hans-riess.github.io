@@ -12,19 +12,9 @@ tags:
 
 In this post, I will briefly describe a pleasant observation I made this morning about monads on a poset, that is, a partially ordered set. In order to get there, I will have to say what exactly are *monads* and *posets.*
 
-Monads are curious objects. I recently came across them while preparing a talk about the first few sections of Peter May's "Geometry of Infinite Loops Spaces." In that paper, he defines a new structure called an operad which is essentially a way to formalize tree-like compositions of maps, $f: X^{\otimes n} \rightarrow X$, for different $n$ in a some monoidal category (if you don't know what that is, think of $(\mathsf{Vect}, \otimes, \mathbf{0})$, the category of vector spaces, with the tensor product and the zero vector space). Anyways, in May's paper, he describes a 1-to-1 correspondence between *algebras over an operad* and *algebras over monads*. That correspondence isn't important here, but it is important to note that monads, for some reason, seems to creep up everywhere. I don't think they are well known amongst applied people who use a lot of fancy algebra like myself. Personally, I hadn't been exposed to them even after a few years of reading some heavy-categorical papers in applied algebraic topology, lattice theory etc. Monads seem, however, to be fairly commonplace in certain theoretical computer science communities especially those Haskell-ites. You know who you are.
+Monads are curious objects. I recently came across them while preparing a talk about the first few sections of Peter May's "Geometry of Infinite Loops Spaces." In that paper, he defines a new structure called an operad which is essentially a way to formalize tree-like compositions of maps, $f: X^{\otimes n} \rightarrow X$, for different $n$ in a some monoidal category (if you don't know what that is, think of $(\mathsf{Vect}, \otimes, \mathbf{0})$, the category of vector spaces, with the tensor product and the zero vector space). Anyways, in May's paper, he describes a 1-to-1 correspondence between *algebras over an operad* and *algebras over monads*. That correspondence isn't important here, but it is important to note that monads, for some reason, seems to creep up everywhere. I don't think they are well known amongst applied people who use a lot of fancy algebra like myself. Personally, I hadn't been exposed to them even after a few years of reading some heavy-categorical papers in applied algebraic topology, lattice theory etc. Monads seem, however, to be fairly commonplace in certain theoretical computer science communities especially those Haskellites. You know who you are.
 
-A poset, say $P$, is set with a *anti-symmetric, reflexitive,* and *transitive* binary relation, $\preceq$. Sometimes it is easier to view a poset not as a set but as a category, $\mathsf{P}$. The objects of this category are the elements of $P$. Morphisms? Given $x, y \in \mathsf{P}$,
-
-
-$$
-\mathrm{Hom}_{\mathsf{P}}(x,y) = 
-\begin{cases}
-\ast & x \preceq y \\
-\emptyset  & \text{otherwise}
-\end{cases}
-$$
-
+A poset, say $P$, is set with a *anti-symmetric, reflexitive,* and *transitive* binary relation, $\preceq$. Sometimes it is easier to view a poset not as a set but as a category, $\mathsf{P}$. The objects of this category are the elements of $P$. Morphisms? Given $x, y \in \mathsf{P}$, $\mathrm{Hom}_{\mathsf{P}}(x,y)$ if $x \preceq y$ and $\emptyset$ otherwise.
 
 This is kind of nice, because if you consider a functor,
 
@@ -103,7 +93,7 @@ which means that $T^2(x) \preceq T(x)$. However, $T(x) \preceq T(x')$ and $T(x) 
 
 **Proposition.** A monad $(T, \mu, \eta)$ on a poset $\mathsf{P}$ is that same as a monotone, inflationary, idempotent map, $T: P \rightarrow P$.
 
-Together with our proposition about constructing a monad from an adunction, we have the following corollary, whose proof is now trivial.
+Together with our proposition about constructing a monad from an adjunction, we have the following corollary, whose proof is now trivial.
 
 **Corollary.** Let $(F, G): P \longleftrightarrow Q$ be a Galois connection between posets $P$ and $Q$. Then, the following identities hold:
 

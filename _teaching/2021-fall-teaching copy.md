@@ -12,11 +12,11 @@ I was the teaching assistant for Video Production for Mathematics, an experiment
 
 My responsibilities consisted of
 
-* Grading occasional assignment where students demonstrate a specific video production skill they learned.
-* Providing extensive feedback for the final project videos to the students.
+* Grading assignments where students demonstrate a specific video production skill they learned.
+* Providing highly detailed feedback for the final project videos to the students.
 
 ### Student Projects
 
-I am very proud of all the students who produced fantastic content. (You can skip to the next video with the forward button.)
+I am very proud of all my students. Here are some of the projects. (You can skip from one video to the next video with the forward button.)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLX1aJjDXcZ8-DhhIJd_LjyOa0Wkyg4xwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
