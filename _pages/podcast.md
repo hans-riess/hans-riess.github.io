@@ -5,7 +5,7 @@ header:
     image:
 layout: single
 ---
-<img src="\images/callin.svg" alt="callin" style="zoom:150%;" />
+<img src="\images\callin.svg" alt="callin" style="zoom:150%;" />
 
 _Sit back and fix a beverage as we ‘shoot-the-breeze’ about math that brings us wonder & joy. I will be joined by an eclectic lineup of mathematicians, occasionally a computer scientist, engineer or economist._
 
