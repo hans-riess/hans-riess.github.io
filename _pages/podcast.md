@@ -15,3 +15,7 @@ _Sit back and fix a beverage as we ‘shoot-the-breeze’ about math that brings
 "Math with Hans" is produced on [**Callin**](https://www.callin.com), the social podcasting app available on [iPhone](https://apps.apple.com/us/app/callin-social-podcasting/id1568011211) and [Android](https://play.google.com/store/apps/details?id=com.callin.project&hl=en_US&gl=US). If you are interested in being a guest, please leave a comment below, or send me an email or twitter message.
 
 <img src="\images\callin.svg" alt="callin" style="zoom:150%;" />
+
+#### Episode 1: Lattices with Greg
+
+In our inaugural episode Greg Henselman-Petrusek and I discussed our mutual interest in lattice theory and how we move enjoy being lattice "mavens" in a variety of communities in math and engineering. [Check it out!](https://www.callin.com/episode/lattices-with-greg-kSlGoIedFD).

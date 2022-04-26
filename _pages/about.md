@@ -15,7 +15,7 @@ I an applied algebraist in the sense that I port tools from algebra (e.g. lattic
 
 Much of my research is centered around the [**Tarski Laplacian**](https://hansriess.com/files/tarski-laplacian.pdf), an operator inspired by the combinatorial Hodge Laplacian (maybe going back to De Rahm but certainly Eckmann). For the category theorists in the room, the Tarski Laplacian over a graph is a categorification of the graph Laplacian matrix. But it is so much more, as I explain in the video below...
 
-I am on the **job market** looking for a position (post-doc, assistant professor or industry) starting as soon January 2023 and as late as September 2023. 
+I am on the **job market** looking for a position (post-doc, assistant professor or industry) starting as soon as August 2022. 
 
 ## Research Statement
 
