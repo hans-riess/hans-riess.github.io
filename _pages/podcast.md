@@ -16,6 +16,8 @@ _Sit back and fix a beverage as we ‘shoot-the-breeze’ about math that brings
 
 <img src="\images\callin.svg" alt="callin" style="zoom:150%;" />
 
-#### Episode 1: Lattices with Greg
+### Episode 1: Lattices with Greg
 
-In our inaugural episode Greg Henselman-Petrusek and I discussed our mutual interest in lattice theory and how we move enjoy being lattice "mavens" in a variety of communities in math and engineering. [Check it out!](https://www.callin.com/episode/lattices-with-greg-kSlGoIedFD).
+In our inaugural episode Greg Henselman-Petrusek and I discussed our mutual interest in the area of lattice theory and how we both enjoy being "lattice mavens" in a variety of communities, both in math and engineering. [Check it out!](https://www.callin.com/episode/lattices-with-greg-kSlGoIedFD).
+
+<!-- ### Episode 2: Persistence with Justin -->
