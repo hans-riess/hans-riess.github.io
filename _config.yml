@@ -21,9 +21,9 @@ future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : false # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            : "hansriess"
+    shortname            : 
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -80,14 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Hans Riess"
+  name             : "Hans Riess, Ph.D."
   avatar           : "headshot_2.jpg"
-  bio              : "I am a Ph.D. candidate at Penn studying the interplay between order lattices and multi-agent systems."
+  bio              : "I am a researcher in autonomous systems and machine Learning, currently employed 
+                      as a postdoctoral associate at Duke University."
   location         : "Philadelphia"
-  employer         : "University of Pennsylvania"
+  employer         : "Duke University"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=lkdryGgAAAAJ"
-  email            : "hmr@seas.upenn.edu"
+  email            : "hans.riess@duke.edu"
   researchgate     :  
   uri              :
   bitbucket        :
@@ -103,7 +104,7 @@ author:
   impactstory      : 
   lastfm           :
   linkedin         : "hansriess"
-  orcid            : 
+  orcid            : "https://orcid.org/0000-0002-3768-0017"
 
   pinterest        :
   soundcloud       :
@@ -195,7 +196,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
   # _pages
@@ -205,7 +206,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      comments: true
+      comments: false
   # _teaching
   - scope:
       path: ""

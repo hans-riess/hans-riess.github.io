@@ -1,22 +1,17 @@
 # main links links
 main:
+
+  - title: "Thesis"
+    url: /tarski/
+
+  - title: "Publications"
+    url: /publications/
+
   - title: "Podcast"
     url: /podcast/
 
   - title: "Blog"
     url: /blog/
-  
-  - title: "Publications"
-    url: /publications/
-    
-  - title: "Talks"
-    url: /talks/
-
-  # - title: "Consulting"
-  #   url: /consulting/
-  
-  - title: "Teaching"
-    url: /teaching/
 
 
 
