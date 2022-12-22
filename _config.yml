@@ -104,7 +104,7 @@ author:
   impactstory      : 
   lastfm           :
   linkedin         : "hansriess"
-  orcid            : 
+  orcid            : "https://orcid.org/0000-0002-3768-0017"
 
   pinterest        :
   soundcloud       :
@@ -196,7 +196,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
   # _pages
@@ -206,7 +206,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      comments: true
+      comments: false
   # _teaching
   - scope:
       path: ""
