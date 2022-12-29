@@ -3,7 +3,7 @@ title: Hans Riess, Ph.D.
 permalink: /
 author_profile: true
 header: 
-  overlay_image: /images/sheaf.png
+  overlay_image: sheaf.png
 redirect_from: 
   - /about/
   - /about.html
