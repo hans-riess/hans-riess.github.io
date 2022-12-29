@@ -1,8 +1,8 @@
 ---
 title: Lattice Theory in Multi-Agent Systems
 permalink: /tarski/
-header:
-    image:
+header: 
+   overlay_image: images/knowledge-vs-belief.png
 layout: single
 ---
 

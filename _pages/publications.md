@@ -3,6 +3,8 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+header: 
+  overlay_image: images/knowledge-vs-belief.png
 ---
 
 Below is a running list of papers I have authored or coauthored.
