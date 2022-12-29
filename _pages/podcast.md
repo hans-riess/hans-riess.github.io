@@ -1,8 +1,8 @@
 ---
 title: Podcast
 permalink: /podcast/
-header:
-    image:
+header: 
+   overlay_image: sheaf.png
 layout: single
 ---
 
