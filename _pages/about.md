@@ -3,7 +3,7 @@ title: Hans Riess, Ph.D.
 permalink: /
 author_profile: true
 header: 
-  overlay_image: images/knowledge-vs-belief.png
+  overlay_image: /images/sheaf.png
 redirect_from: 
   - /about/
   - /about.html
