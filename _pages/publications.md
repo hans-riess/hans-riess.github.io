@@ -3,7 +3,7 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 header: 
-   overlay_image: /images/sheaf.png
+   overlay_image: sheaf.png
 author_profile: true
 ---
 
