@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Hans Riess, Ph.D."
   avatar           : "headshot_2.jpg"
-  bio              : "I am a researcher in autonomous systems and machine Learning, currently employed 
-                      as a postdoctoral associate at Duke University."
-  location         : "Philadelphia"
+  bio              : "I am a researcher currently employed 
+                      as a postdoctoral associate at Duke University. "
+  location         :
   employer         : "Duke University"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=lkdryGgAAAAJ"
