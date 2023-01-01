@@ -3,7 +3,7 @@ title: Hans Riess, Ph.D.
 permalink: /
 author_profile: true
 header: 
-  overlay_image: causeway.jpg
+  overlay_image: causeway.jpeg
 redirect_from: 
   - /about/
   - /about.html

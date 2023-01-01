@@ -2,7 +2,7 @@
 title: Podcast
 permalink: /podcast/
 header: 
-   overlay_image: causeway.jpg
+   overlay_image: causeway.jpeg
 layout: single
 ---
 
