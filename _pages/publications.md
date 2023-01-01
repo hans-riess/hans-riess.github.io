@@ -3,7 +3,7 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 header: 
-   overlay_image: causway.jpeg
+   overlay_image: causeway.jpeg
 author_profile: true
 ---
 
