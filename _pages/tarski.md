@@ -8,7 +8,7 @@ layout: single
 
 In my Ph.D. thesis, I argue that lattice-based multi-agent systems constitute a broad class of networked multi-agent systems in which relational data is passed between nodes. Mathematically modeled as lattice-valued sheaves, I initiate a discrete Hodge theory with a Laplace operator, analogous to the graph Laplacian and the graph connection Laplacian, acting on assignments of data to the nodes of a lattice-valued sheaf.
 
-Link: ["Lattice Theory in Multi-Agent Systems"](/files/thesis.pdf)
+<!-- Link: ["Lattice Theory in Multi-Agent Systems"](/files/thesis.pdf) -->
 
 ### Research Video
 
