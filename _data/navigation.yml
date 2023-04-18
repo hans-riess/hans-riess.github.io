@@ -1,6 +1,9 @@
 # main links links
 main:
 
+  - title: "Posts"
+    url: /blog/
+
   - title: "Thesis"
     url: /tarski/
 
@@ -9,9 +12,6 @@ main:
 
   - title: "Podcast"
     url: /podcast/
-
-  - title: "Blog"
-    url: /blog/
 
 
 
