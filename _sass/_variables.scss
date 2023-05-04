@@ -21,6 +21,7 @@ $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 $sans-serif-narrow          : $sans-serif;
 $helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
 $p22-underground            : "p22-underground",sans-serif;
+$p22-underground-pc         : "p22-underground-pc",sans-serif;
 
 /* serif typefaces */
 $georgia                    : Georgia, serif;
@@ -30,7 +31,7 @@ $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
 $global-font-family         : $p22-underground;
-$header-font-family         : $p22-underground;
+$header-font-family         : $p22-underground-pc;
 $caption-font-family        : $serif;
 
 
