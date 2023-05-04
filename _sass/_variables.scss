@@ -14,14 +14,13 @@ $indent-var                 : 1.3em;
 
 /* system typefaces */
 $serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$sans-serif                 : "p22-underground", sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
 $helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
-$p22-underground            : "p22-underground",sans-serif;
-$p22-underground-pc         : "p22-underground-pc",sans-serif;
+$sans-serif-header          : "p22-underground-pc",sans-serif;
 
 /* serif typefaces */
 $georgia                    : Georgia, serif;
@@ -30,8 +29,8 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-$global-font-family         : $p22-underground;
-$header-font-family         : $p22-underground-pc;
+$global-font-family         : $sans-serif;
+$header-font-family         : $sans-serif-header;
 $caption-font-family        : $serif;
 
 
