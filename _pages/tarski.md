@@ -2,7 +2,7 @@
 title: Lattice Theory in Multi-Agent Systems
 permalink: /tarski/
 header: 
-  overlay_image: causeway.jpeg
+  overlay_image: header.png
 layout: single
 ---
 
