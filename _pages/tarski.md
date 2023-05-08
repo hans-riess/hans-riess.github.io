@@ -12,8 +12,19 @@ Link: ["Lattice Theory in Multi-Agent Systems"](https://arxiv.org/pdf/2304.02568
 
 ### Research Video
 
-I made a 10 minute video[^1] that provides a brief summary of my thesis.
+I made a 10 minute video that provides a brief summary of my thesis.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qoli4G-_HOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[^1]: In the video, I define lattice-valued sheaves with order-reversing restriction (i.e.~structure) maps. If you want sheaves with order-preserving restriction maps, you can simply replace the join in the definition of the Tarski Laplacian in the video with a meet. (This definition coincides with the definition of the Tarski Laplacian in my thesis.) My rationale for presenting the order-reversing notion of a Galois connection in the video is the connection to the formal concept analysis (FCA) literature.
+### Behind the Scences
+
+I used a combination of the following software tools to make my 10 minute reserarch statment:
+
+* MS PowerPoint, for text, equation, and 2D animations;
+* Cinema4D and Houdini, for 3D animations;
+* Premiere for composting;
+* After Effects for green screen effects;
+* Photoshop for making the chalkboard background;
+* Media Encoder for exporting animations and the final product to various file formats.
+
+At the time, I paid for the Adobe Creative Cloud, but I don't continue to pay for the costly monthly subscription. There are open-source "alternatives," as I understand. Cinema4D and Houdini have education liscences that make using these products virtually free. 
