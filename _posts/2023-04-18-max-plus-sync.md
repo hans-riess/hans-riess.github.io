@@ -65,9 +65,11 @@ We also study the algebraic properties of the solution sets and the convergence 
 Our contribution to the economics literature is theoretical evidence that differences in a) competitive equilibrium, b) bargaining, or c) cost-benefit analysis are due to differences in the way that transaction costs are incorporated into the decision-making process. In our analysis, we classified trajectories of the heat equation as either 1) converging to an approximate value equilibrium, or b) converging to the stable manifold. The second regime, we interpret, as never-ending negotiations between agents--equilibrium is never reached. Further investigation of this phenomenon--both on the side of economics and mathematics--is subject to future work.
 
 
-We also presented numerical simulations of the synchronization algorithm which we (deliciously) call **R**esiduate **R**escale **Ag**gregate **U**pdate (RRAggU).
+We also presented numerical simulations of the synchronization algorithm which we call **R**esiduate **R**escale **Ag**gregate **U**pdate (RRAggU).
 
 ![](../images/loss.png)
 
 
-Our results demonstrate that trajectories of the heat equation (2) converge to an approximate value equilibrium. Please give it a [read](https://arxiv.org/pdf/2304.00210.pdf)!
+Our results demonstrate that trajectories of the heat equation (2) converge to an approximate value equilibrium.
+
+Our code is availabe [here](https://github.com/hans-riess/RRAgU).
