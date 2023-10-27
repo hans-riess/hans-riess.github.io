@@ -4,11 +4,11 @@ main:
   - title: "Posts"
     url: /blog/
 
-  - title: "Thesis"
-    url: /tarski/
-
   - title: "Publications"
     url: /publications/
+
+  - title: "Thesis"
+    url: /tarski/
 
   - title: "CV"
     url: /cv/
