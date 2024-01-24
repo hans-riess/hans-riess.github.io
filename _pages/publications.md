@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Publications"
+title: "Papers"
 permalink: /publications/
 header: 
    overlay_image: header.png
@@ -19,11 +19,11 @@ Below is a running list of papers I have authored or coauthored.
 
 ## Conference Proceedings
 
-8.  **Riess, H.**, Henselman-Petrusek, G., Munger, M., Ghrist, R., Bell, Z., & Zavlanos, M. (2023). [Network Preference Dynamics using Lattice Theory](https://arxiv.org/pdf/2310.00179.pdf). Submitted.
+8.  **Riess, H.**, Henselman-Petrusek, G., Munger, M., Ghrist, R., Bell, Z., & Zavlanos, M. (2023). [Network Preference Dynamics using Lattice Theory](https://arxiv.org/pdf/2310.00179.pdf). To appear in _2024 American Control Conference_, Toronto.
 
-7. Hayhoe, M., **Riess, H.**, Preciado, V., & Ribeiro, A. (2022). Transferable Hypergraph Neural Networks via Spectral Similarity. Submitted.
+7. Hayhoe, M., **Riess, H.**, Preciado, V., & Ribeiro, A. (2023). [Transferable Hypergraph Neural Networks via Spectral Similarity.](https://openreview.net/pdf?id=cHuii4NOB9) In _Second Learning on Graphs Conference_, virtual.
 
-6. **Riess,H.**, Munger, M., & Zavlanos, M. (2023). [Max-Plus Synchronization in Decentralized Trading Systems.](https://arxiv.org/pdf/2304.00210.pdf) To appear in _2023 IEEE 62nd Confernece on Decision and Control (CDC)_, Singapore.
+6. **Riess,H.**, Munger, M., & Zavlanos, M. (2023). [Max-Plus Synchronization in Decentralized Trading Systems.](https://ieeexplore.ieee.org/document/10383918) In _2023 IEEE 62nd Confernece on Decision and Control (CDC)_, Singapore.
 
 5. Battiloro, C., Wang, Z., **Riess, H.**, Di Lorenzo, P., & Ribeiro, A. (2022). [Tangent bundle filters and neural networks: from manifolds to cellular sheaves and back.](https://arxiv.org/pdf/2210.15058.pdf) In _2023 Proceedings of the International Conference on Acoustics, Speech and Signal Processing (ICASSP)_.
 
@@ -33,7 +33,7 @@ Below is a running list of papers I have authored or coauthored.
 
 2. **Riess, H.**, & Hansen, J. (2020). [Multidimensional persistence module classification via lattice-theoretic convolutions](https://arxiv.org/pdf/2011.14057.pdf). In _NeurIPS Workshop on Topological Data Analysis and Beyond_.
 
-1. Parada-Mayorga, A., **Riess, H.**, Ribeiro, A., & Ghrist, R. (2020). [Quiver Signal Processing (QSP)](https://arxiv.org/pdf/2010.11525.pdf). Submitted.
+1. Parada-Mayorga, A., **Riess, H.**, Ribeiro, A., & Ghrist, R. (2020). [Quiver Signal Processing (QSP)](https://arxiv.org/pdf/2010.11525.pdf). _arXiv_.
 
 ## Thesis
 
