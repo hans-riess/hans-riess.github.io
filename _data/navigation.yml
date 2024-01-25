@@ -1,20 +1,17 @@
 # main links links
 main:
 
-  - title: "Posts"
-    url: /blog/
+  - title: "Home"
+    url: /about/
 
   - title: "Papers"
     url: /publications/
 
-  - title: "Thesis"
-    url: /tarski/
-
   - title: "CV"
     url: /cv/
 
-  - title: "Podcast"
-    url: /podcast/
+  - title: "Teaching"
+    url: /teaching/
 
 
 
