@@ -19,6 +19,8 @@ Below is a running list of papers I have authored or coauthored.
 
 ## Conference Proceedings
 
+9. **Riess, H.**, Veveakis, M., Zavlanos, M. (2024). [Path Signatures and Graph Neural Networks for Slow Earthquake Analysis: Better Together?](https://arxiv.org/pdf/2402.03558.pdf). Submitted.
+
 8.  **Riess, H.**, Henselman-Petrusek, G., Munger, M., Ghrist, R., Bell, Z., & Zavlanos, M. (2023). [Network Preference Dynamics using Lattice Theory](https://arxiv.org/pdf/2310.00179.pdf). To appear in _2024 American Control Conference_, Toronto.
 
 7. Hayhoe, M., **Riess, H.**, Preciado, V., & Ribeiro, A. (2023). [Transferable Hypergraph Neural Networks via Spectral Similarity.](https://openreview.net/pdf?id=cHuii4NOB9) In _Second Learning on Graphs Conference_, virtual.
